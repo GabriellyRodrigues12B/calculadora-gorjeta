@@ -26,6 +26,9 @@ function receiveBillValue() {
     }
 
     function receiveTipPercentageValeu(value){
+
+        tipPercentage= value/100
+        console.log (tipPercentage)
         buttonSelected=document.querySelector("")
 
     }
@@ -38,6 +41,5 @@ function receiveBillValue() {
             console.log("Ainda não dá! Preencha tudo!")
         }
     }
-
 
 
